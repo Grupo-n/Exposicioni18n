@@ -1,0 +1,8 @@
+en:
+  hello_world: Hello world!
+  hello_flash: Hello flash!
+  time:
+    formats:
+      short: ! '%d %b %H:%M'
+
+    
