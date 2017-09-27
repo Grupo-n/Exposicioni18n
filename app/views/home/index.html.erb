@@ -2,3 +2,19 @@
 <h1><%=t :hello_world %></h1>
 <p><%= flash[:notice] %></p>
 
+<p><%= t :name_u , default: 'No user'%></p>
+<p><%= t :color_x , default: [:color, 'No color'] %></p>
+
+<p><%= t("notification", count: 0) %></p>
+<p><%= t("notification", count: 1) %></p>
+<p><%= t("notification", count: 5) %></p>
+
+
+<p><%= I18n.t :hello_world, locale: :nl %></p>
+<p><%= I18n.l Time.now, locale: :nl %></p>
+
+
+<div><%= t('welcome') %></div>
+<div><%= raw t('welcome') %></div>
+<div><%= t('hello_html') %></div>
+<div><%= t('title.html') %></div>

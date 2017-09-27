@@ -5,3 +5,12 @@ pirate:
         formats:
             short: "Arrround %H' ish"
 
+    notification:
+      one: Ye 'ave 1 notification
+      other: Ye 'ave  %{count} notifications
+
+
+    welcome: <b>welcome!</b>
+    hello_html: <b>ahoy!</b>
+    title:
+      html: <b>title!</b>

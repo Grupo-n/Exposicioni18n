@@ -1,0 +1,17 @@
+nl:
+  hello_world: Hallo Wereld!
+  color: blauw
+  time:
+    formats:
+      short: ! '%H:%M %d %b'
+      default: 'NL: %H:%M %d %b'
+
+  notification:
+    one: U heeft 1 melding
+    other: U heeft %{count} meldingen
+
+
+  welcome: <b>Welkom!</b>
+  hello_html: <b>hallo!</b>
+  title:
+    html: <b>titel!</b>

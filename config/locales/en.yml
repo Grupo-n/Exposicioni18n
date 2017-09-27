@@ -1,8 +1,17 @@
 en:
   hello_world: Hello world!
   hello_flash: Hello flash!
+  color_x: Red
   time:
     formats:
       short: ! '%d %b %H:%M'
+      default: ! 'EN: %d %b %H:%M'
 
-    
+  notification:
+    one: You have 1 notification
+    other: You have %{count} notifications
+
+  welcome: <b>welcome!</b>
+  hello_html: <b>hello!</b>
+  title:
+    html: <b>title!</b>
